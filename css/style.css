@@ -31,9 +31,6 @@ img {
    margin: 0 auto;
 }
 /*=======HEADER========*/
-.header {
-padding: 32px 0;
-}
 .portheader {
     border-bottom: 1px solid #ececec;
 }
@@ -56,12 +53,11 @@ font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
 color: var(--accent-color);
+padding-top: 24px;
+padding-bottom: 25px;
 }
 .studio {
     color: var(--bacic-color);
-}
-.navigation-list-link {
-    padding: 15px 0;
 }
 .navigation-list-link,
 .address  {
@@ -95,21 +91,20 @@ color: var(--accent-color);
 
 .navigation-list-link {
 color: var(--bacic-color);
+padding: 32px 0;
 }
 .address-mail-link,
 .address-tel-link {
 font-style: normal;
 color: var(--subtitle-collor);
+padding: 32px 0;
 }
 /*=======END HEADER========*/
 /*=======HERO========*/
-.hero .container {
-    
+.hero {
     display: flex;
    align-items: center;
    flex-direction: column;
-}
-.hero {
     height: 600px;
   background-color: var(--hero-color);
   padding: 200px 0;
@@ -126,19 +121,14 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--auxiliary-color);
 }
-.button:hover,
-.button:focus {
-    background-color: var(--accent-color);
-    color: var(--auxiliary-color);
-}
 .button {
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
 display: flex;
 letter-spacing: 0.06em;
-color: var(--bacic-color);
-background-color: var(--button-color);
+background-color: var(--accent-color);
+color: var(--auxiliary-color);
 border: 0px;
 border-radius: 4px;
 margin-top: 30px;
